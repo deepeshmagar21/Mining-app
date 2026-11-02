@@ -1,0 +1,35 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="130dp"
+    android:height="100dp"
+    android:viewportWidth="130"
+    android:viewportHeight="100">
+
+  <!-- Background -->
+  <path
+      android:fillColor="#F7F7F7"
+      android:pathData="M12,0 L118,0 C124.627,0 130,5.373 130,12 L130,88 C130,94.627 124.627,100 118,100 L12,100 C5.373,100 0,94.627 0,88 L0,12 C0,5.373 5.373,0 12,0 Z" />
+
+  <!-- Blue Carry Case in background -->
+  <path
+      android:fillColor="#4CA6A1"
+      android:pathData="M15,45 H55 V75 H15 Z" />
+  <!-- Case Handle -->
+  <path
+      android:strokeColor="#2E7D79"
+      android:strokeWidth="3"
+      android:pathData="M28,45 V40 H42 V45" />
+
+  <!-- Jackhammer Body -->
+  <path
+      android:fillColor="#00A896"
+      android:pathData="M40,30 L85,60 L90,55 L45,25 Z" />
+  <path
+      android:fillColor="#333333"
+      android:pathData="M75,52 L95,68 L90,73 L70,57 Z" />
+  <!-- Chisel Bit -->
+  <path
+      android:strokeColor="#888888"
+      android:strokeWidth="5"
+      android:strokeLineCap="round"
+      android:pathData="M88,68 L115,88" />
+</vector>

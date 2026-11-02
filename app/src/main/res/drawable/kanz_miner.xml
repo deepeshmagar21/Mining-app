@@ -1,0 +1,57 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="220dp"
+    android:height="220dp"
+    android:viewportWidth="220"
+    android:viewportHeight="220">
+
+  <!-- Outer teal background circle -->
+  <path
+      android:fillColor="#00A896"
+      android:pathData="M110,0 C170.75,0 220,49.25 220,110 C220,170.75 170.75,220 110,220 C49.25,220 0,170.75 0,110 C0,49.25 49.25,0 110,0 Z" />
+
+  <!-- Outer ring accent -->
+  <path
+      android:strokeColor="#FFFFFF"
+      android:strokeWidth="2"
+      android:strokeAlpha="0.3"
+      android:pathData="M110,12 C164.78,12 208,55.22 208,110 C208,164.78 164.78,208 110,208 C55.22,208 12,164.78 12,110 C12,55.22 55.22,12 110,12 Z" />
+
+  <!-- Inner ring accent -->
+  <path
+      android:strokeColor="#FFFFFF"
+      android:strokeWidth="1.5"
+      android:strokeAlpha="0.2"
+      android:pathData="M110,26 C157.05,26 194,62.95 194,110 C194,157.05 157.05,194 110,194 C62.95,194 26,157.05 26,110 C26,62.95 62.95,26 110,26 Z" />
+
+  <!-- Miner Hardhat -->
+  <path
+      android:fillColor="#FFFFFF"
+      android:fillAlpha="0.95"
+      android:pathData="M75,80 Q110,40 145,75 L155,85 L65,85 Z" />
+
+  <!-- Miner Body & Shoulders -->
+  <path
+      android:fillColor="#FFFFFF"
+      android:fillAlpha="0.9"
+      android:pathData="M45,175 Q60,115 90,105 L130,105 Q160,115 175,175 Z" />
+
+  <!-- Face / Beard profile -->
+  <path
+      android:fillColor="#FFFFFF"
+      android:fillAlpha="0.85"
+      android:pathData="M95,85 Q110,85 120,100 L125,130 Q105,135 90,120 Z" />
+
+  <!-- Metal Detector Staff -->
+  <path
+      android:strokeColor="#FFFFFF"
+      android:strokeWidth="4"
+      android:strokeAlpha="0.95"
+      android:strokeLineCap="round"
+      android:pathData="M45,60 L165,160" />
+
+  <!-- Detector Coil -->
+  <path
+      android:fillColor="#FFFFFF"
+      android:fillAlpha="0.95"
+      android:pathData="M55,65 A12,12 0 1,1 55,41 A12,12 0 1,1 55,65 Z" />
+</vector>

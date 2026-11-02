@@ -1,0 +1,40 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="130dp"
+    android:height="100dp"
+    android:viewportWidth="130"
+    android:viewportHeight="100">
+
+  <!-- Background subtle card styling -->
+  <path
+      android:fillColor="#F7F7F7"
+      android:pathData="M12,0 L118,0 C124.627,0 130,5.373 130,12 L130,88 C130,94.627 124.627,100 118,100 L12,100 C5.373,100 0,94.627 0,88 L0,12 C0,5.373 5.373,0 12,0 Z" />
+
+  <!-- Control box -->
+  <path
+      android:fillColor="#333333"
+      android:pathData="M25,25 H50 V45 H25 Z" />
+  <!-- Screen -->
+  <path
+      android:fillColor="#7FB3D5"
+      android:pathData="M28,28 H47 V40 H28 Z" />
+  <!-- Shaft -->
+  <path
+      android:strokeColor="#555555"
+      android:strokeWidth="3"
+      android:strokeLineCap="round"
+      android:pathData="M38,45 L95,80" />
+  <!-- Armrest / Battery -->
+  <path
+      android:fillColor="#222222"
+      android:pathData="M18,35 H25 V55 H18 Z" />
+  <!-- Search Coil (Large circle on the right) -->
+  <path
+      android:strokeColor="#111111"
+      android:strokeWidth="6"
+      android:pathData="M95,80 m-22,0 a22,22 0 1,1 44,0 a22,22 0 1,1 -44,0" />
+  <!-- Inner Coil Crossbars -->
+  <path
+      android:strokeColor="#111111"
+      android:strokeWidth="3"
+      android:pathData="M73,80 L117,80 M95,58 L95,102" />
+</vector>
